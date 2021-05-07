@@ -1,0 +1,23 @@
+{
+  "ConfigVersion": 1,
+  "OwnerIDs": [
+    "168759625875718145"
+  ],
+  "BotPrefix": "!",
+  "LogsChannel": "",
+  "Guilds": [
+    {
+      "GuildID": "840319542622552085",
+      "RolesByInvite": [
+        {
+          "InviteCode": "u3VZ67hD",
+          "RoleID": "840319726244855859"
+        },
+        {
+          "InviteCode": "JExgkRVj39",
+          "RoleID": "840320247206379560"
+        }
+      ]
+    }
+  ]
+}
