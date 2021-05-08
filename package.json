@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rm -rf && tsc",
     "start": "node .",
-    "dev": "yarn build && yarn start"
+    "dev": "npm run build && npm run start"
   },
   "repository": {
     "type": "git",
