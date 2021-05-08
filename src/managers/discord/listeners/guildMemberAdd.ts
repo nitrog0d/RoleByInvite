@@ -38,7 +38,7 @@ export default class GuildMemberAddListener extends Listener {
       }
 
       console.info(`Giving role ${roleToGive.id}/${roleToGive.name} to ${member.user.tag}.`);
-      discordManager.log(`Giving role \`${member.guild.roles.resolve(roleToGive).name}\`/\`${roleToGive}\` to \`${member.user.tag}\`.`);
+      discordManager.log(`Giving role \`${roleToGive.id}\`/\`${roleToGive.name}\` to \`${member.user.tag}\`.`);
       member.roles.add(roleToGive);
     }
   }
